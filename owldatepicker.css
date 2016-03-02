@@ -1,0 +1,79 @@
+div.owldatepicker {
+    background-color: #FFFFFF;
+    border: 1px solid #ddd !important;
+    padding: 10px !important;
+    text-align: right !important;
+    border-radius: 3px;
+}
+
+div.owldatepicker .owldatepicker-caption {
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+div.owldatepicker .owldatepicker-caption a {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+    top: 0px;
+    font-size: 16px;
+}
+
+div.owldatepicker .owldatepicker-caption a.owldatepicker-caption-prev {
+    left: 4px;
+    top: 10px;
+}
+
+div.owldatepicker .owldatepicker-caption span.owldatepicker-caption-current {
+    display: block;
+    padding: 3px;
+    text-align: center;
+}
+
+div.owldatepicker .owldatepicker-caption a.owldatepicker-caption-next {
+    right: 4px;
+    top: 10px;
+}
+
+div.owldatepicker table {
+    border: 1px solid #c0c0c0;
+}
+
+div.owldatepicker tr {
+    border: 1px solid #c0c0c0;
+}
+
+div.owldatepicker td {
+    border: 1px solid #ddd !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+div.owldatepicker td a {
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    background: #eee;
+    text-decoration: none;
+    color: #333;
+}
+
+div.owldatepicker .owldatepicker-week.week0 {
+    color: red;
+}
+
+div.owldatepicker .owldatepicker-week.week6 {
+    color: blue;
+}
+
+div.owldatepicker .owldatepicker-day.week0 {
+    background: #fdd;
+}
+
+div.owldatepicker .owldatepicker-day.week6 {
+    background: #def;
+}
